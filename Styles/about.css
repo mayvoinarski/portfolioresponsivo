@@ -1,0 +1,88 @@
+.curriculum {
+    width: 85%;
+    background-color: var(--bg-transparent-gray);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: var(--font-text);
+}
+.curriculum__title {
+    font-size: var(--font-size-title);
+    font-family: var(--font-title);
+    font-weight: 400;
+    font-style: normal;
+}
+.curriculum__xp{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.curriculum__xp__title {
+    font-size: 1.5rem;
+    border-bottom: 1px solid var(--white);
+    color: var(--rosa-pink);
+}
+.curriculum__xp__date {
+    font-size: 12px;
+}
+.curriculum__xp__subtitle{
+    font-size: 1.25rem;
+    color: var(--lilas);
+    margin-left: 2%;
+}
+.curriculum__xp__img {
+    display: flex;
+    flex-direction: row;
+}
+
+.curriculum__xp__img > .curriculum__xp__subtitle {
+    margin-top: 40px;
+    width: 70%;
+}
+
+.curriculum__xp__img ul li {
+    margin-top: 2.5%;
+}
+.curriculum__old__faculty img {
+    width: 150px;
+    border-radius: 15px;
+    border: 1px solid #6A5D8A;
+}
+
+.curriculum__faculty, .curriculum__old__faculty {
+    margin-left: 3%;
+}
+.curriculum__faculty  img{
+    width: 150px;
+    border-radius: 15px;
+    border: 1px solid #6A5D8A;
+}
+ul li {
+    list-style-type: disc;
+    margin: 0% 15% 0% 5%;
+    font-size: 0.87rem;
+    text-align: justify;
+}
+
+.curriculum__xp__box{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border-top: 1px solid var(--rosa-pink);
+    width: 100%;
+}
+.curriculum__xp__secondary__title {
+    width: 50%;
+}
+.curriculum__xp__secondary__title h4{
+    font-size: 1.25rem;
+    color: var(--lilas);
+    margin-bottom: 4%;
+}
+
+.curriculum__xp__secondary__title ul li{
+    margin-left: 5%;
+}
+

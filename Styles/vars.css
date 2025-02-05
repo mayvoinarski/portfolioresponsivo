@@ -1,0 +1,11 @@
+:root {
+    --rosa-pink: #FF1177;
+    --white: #FFF;
+    --lilas: #E6D8E1;
+    --bg-transparent-gray:  rgba(0, 0, 0, 0.6);
+    --bg-transparent-white: rgba(255, 255, 255, 0.5);
+    --lilas-button: #E6D8E1;
+    --font-title: "Cabin Sketch", serif;
+    --font-text: "Montserrat", serif;
+    --font-size-title: 2.25rem;
+}
